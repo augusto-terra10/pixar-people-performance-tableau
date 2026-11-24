@@ -49,22 +49,18 @@ The data model supports exploration across films, contributors and their creativ
 ## Repository structure
 
 ```text
-employee-transfers-financial-analysis/
+pixar-people-Performance-tableau/
 ├── README.md
-├── report/
-│   ├── Employee_Transfers_Financial_Analysis.pbix
-│   └── README.md
-├── Screenshots/
-│   ├── Employee Tranfer & Financial Analysis.png
-│   └── Employee Tranfer & Financial Analysis_Detailed Report.png
+├── dashboard/
+│   └── Pixar-People-Performance.twbx
+├── screenshots/
+│   └── Pixar-People-Performance.png
 ├── data/
 │   ├── Employee_Transfers_Portfolio_Data.xlsx
 │   └── README.md
 ├── documentation/
 │   ├── project-overview.md
-│   ├── data-model.md
-│   └── measures-catalog.md
-└── .gitignore
+│   └── data-model.md
 ```
 
 ## Author

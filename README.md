@@ -6,11 +6,11 @@ An interactive Tableau dashboard exploring the creative talent behind Pixar’s 
 
 ## Dashboard Preview
 
-## Key Takeway
+## Key Takeways
 
 This dashboard highlights the relationship between Pixar’s creative talent and the performance of its films, providing an interactive way to explore contributor portfolios and film-level box office results.
 
-## Key Feartures
+## Key Features
 
 - Creative Role Exploration – Explore contributors by creative role, including producers, directors, co-directors, screenwriters, storywriters and musicians.
 - Contributor Performance Analysis – Compare creative contributors based on the average budget and worldwide box office of their film portfolios.

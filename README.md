@@ -56,7 +56,12 @@ pixar-people-Performance-tableau/
 ├── screenshots/
 │   └── Pixar-People-Performance.png
 ├── data/
-│   ├── Employee_Transfers_Portfolio_Data.xlsx
+│   ├── Pixar Films.csv
+|   ├── Pixar People.csv
+|   ├── Public Response.csv
+|   ├── Academy Awards.csv
+|   ├── Genres.csv
+|   ├── Box Office.csv
 │   └── README.md
 ├── documentation/
 │   ├── project-overview.md

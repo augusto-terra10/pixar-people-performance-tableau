@@ -6,6 +6,8 @@ An interactive Tableau dashboard exploring the creative talent behind Pixar’s 
 
 ## Dashboard Preview
 
+![Pixar People & Performance](screenshots/Employee%20Transfer%20%26%20Financial%20Analysis.png)
+
 ## Key Takeways
 
 This dashboard highlights the relationship between Pixar’s creative talent and the performance of its films, providing an interactive way to explore contributor portfolios and film-level box office results.

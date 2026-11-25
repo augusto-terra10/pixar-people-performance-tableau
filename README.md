@@ -6,7 +6,8 @@ An interactive Tableau dashboard exploring the creative talent behind Pixar’s 
 
 ## Dashboard Preview
 
-![Pixar People & Performance](screenshots/Employee%20Transfer%20%26%20Financial%20Analysis.png)
+![Pixar People & Performance](screenshots/Pixar%20People%20and%20Performance%20p1.png)
+![Pixar People & Performance](screenshots/Pixar%20People%20and%20Performance%20p2.png)
 
 ## Key Takeways
 

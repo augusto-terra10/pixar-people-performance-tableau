@@ -35,8 +35,3 @@ The model supports the dashboard's main interactions:
 2. Select a contributor in the scatter plot to filter the film poster gallery.
 3. Hover over a film poster to view the creative contributors associated with that film.
 
-## Notes
-
-- The relationship cardinalities above reflect the Tableau data model shown in the project.
-- Contributor records can represent multiple people and/or credits associated with a film.
-- Review source data licensing and redistribution permissions before committing CSV files to a public GitHub repository.

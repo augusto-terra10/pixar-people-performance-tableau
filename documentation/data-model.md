@@ -2,40 +2,41 @@
 
 ## Overview
 
-The dashboard combines information about Pixar films, creative contributors, box office performance, awards, public response, and film genres.
+`Pixar Films.csv` is the central table in the Tableau data model. It is connected to five other datasets.
 
-The source files currently included in the project are:
+## Relationships
 
-- `Pixar Films.csv`
-- `Pixar People.csv`
-- `Box Office.csv`
-- `Academy Awards.csv`
-- `Public Response.csv`
-- `Genres.csv`
-
-## Data Sources
-
-| Dataset | Purpose |
+| Connected dataset | Relationship with `Pixar Films.csv` |
 |---|---|
-| Pixar Films | Film-level information used to describe and identify Pixar titles |
-| Pixar People | Creative contributors and their roles in Pixar films |
-| Box Office | Box office performance associated with films |
-| Academy Awards | Academy Award information associated with films or contributors |
-| Public Response | Audience/public response information associated with films |
-| Genres | Genre classifications associated with films |
+| `Academy Awards.csv` | One-to-many |
+| `Box Office.csv` | One-to-one |
+| `Genres.csv` | One-to-many |
+| `Pixar People.csv` | One-to-many |
+| `Public Response.csv` | One-to-one |
 
-## Relationships and Analysis
+In other words, one Pixar film can have multiple Academy Award records, genre records, and people/contributor records. Each film has one corresponding record in the Box Office dataset and one corresponding record in the Public Response dataset.
 
-The dashboard uses film titles/film identifiers to connect film-level information across the relevant datasets. Contributor records connect people and creative roles to the films they worked on.
+## Model Structure
 
-The main analysis paths are:
+```text
+Pixar Films
+├── Academy Awards       (one-to-many)
+├── Box Office           (one-to-one)
+├── Genres               (one-to-many)
+├── Pixar People         (one-to-many)
+└── Public Response      (one-to-one)
+```
 
-1. Select a creative role to filter the contributor analysis.
+## Dashboard Analysis
+
+The model supports the dashboard's main interactions:
+
+1. Select a creative role to explore contributors.
 2. Select a contributor in the scatter plot to filter the film poster gallery.
-3. Hover over a film poster to display the contributors associated with that film.
+3. Hover over a film poster to view the creative contributors associated with that film.
 
 ## Notes
 
-- Confirm the exact join keys and relationship cardinality in the Tableau data model before documenting them as definitive.
-- Contributor data may contain multiple rows for the same person when that person has multiple roles or film credits.
+- The relationship cardinalities above reflect the Tableau data model shown in the project.
+- Contributor records can represent multiple people and/or credits associated with a film.
 - Review source data licensing and redistribution permissions before committing CSV files to a public GitHub repository.
